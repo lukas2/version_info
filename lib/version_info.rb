@@ -89,7 +89,6 @@ class VersionInfo
     File.open( filename + "_readme", "w" ) do |f|
       f.write( "** version.info and this file are generated during deployment. **\n" )
       f.write( "** version.info contains zipped git-history information.       **\n" )
-      f.write( "** see /version route of user_service.rb for usage.            **\n" )
     end
   end
 
