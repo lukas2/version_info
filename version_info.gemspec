@@ -1,4 +1,4 @@
-Gem::Specification do |s|
+Gem::Specification.new do |s|
   s.name        = "version_info"
   s.version     = "1.0"
   s.platform    = Gem::Platform::RUBY
