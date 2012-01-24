@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
                    the most recent git-commits. Stores the commits in a file, so the data
                    is also available when the application is deployed with capistrano and
                    no .git-history is available in the location deployed to."
-  s.files       = [ "version_info.rb", "version_info.gemspec", "README.md" ]
+  s.files       = [ "lib/version_info.rb", "version_info.gemspec", "README.md" ]
 end
